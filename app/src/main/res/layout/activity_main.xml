@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wgl.tweenanimation.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/translate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="位移"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/alpha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="渐变"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/rotate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="旋转"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/scale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="缩放"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/all"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="集合"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/interpolator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="加入插值器的效果"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/bounce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="反弹插值器"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/accelerateDecelerate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="先快后慢插值器"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/accelerate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="越来越快插值器"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/decelerate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="越来越慢插值器"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/cycle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="动画重复几次插值器"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="匀速插值器"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/anticipateOvershoot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="发射前反方向甩出，发射后回弹一些插值器"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/anticipate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="发射前反方向甩出插值器"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/Overshoot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="发射后回弹一些插值器"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</ScrollView>
